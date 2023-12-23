@@ -28,7 +28,7 @@ python template.py
 bash init_setup.sh
 ```
 
-### Acivate environment
+### Activate the environment
 ```bash
 source activate ./env
 ```
