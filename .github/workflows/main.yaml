@@ -4,9 +4,6 @@ on:
     branches:
       - master
 
-permissions:
-  id-token: write
-  contents: read
 
 jobs:
   build-and-push-ecr-image:
