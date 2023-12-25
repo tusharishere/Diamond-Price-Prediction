@@ -43,3 +43,27 @@ pip install -r requirement.txt
     * Data Ingestion (fetched data from source)
     * Data Transformation (Feature Engineering, Data Preprocessing)
     * Model Builing (Create a model using the processed data)
+
+#### Command to train the pipeline
+```bash
+python src\GemstonePricePrediction\pipelines\training_pipeline.py
+```
+### Prediction Pipeline
+    * Two types of prediction pipeline
+        * Single record prediction
+        * Batch prediction
+
+## Flask App
+```bash
+python app.py
+```
+## Deployment of DockerImage on AWS
+* AWS - ECR
+* AWS - AppRunner
+
+## Cloud Deployed Link
+* https://nk6bqsuj33.ap-south-1.awsapprunner.com/
+
+## Dataset Link
+* https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction
+* https://github.com/tusharishere/Diamond-Price-Prediction/blob/master/notebooks/data/gemstone.csv
