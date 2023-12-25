@@ -62,7 +62,7 @@ python app.py
 * AWS - AppRunner
 
 ## Cloud Deployed Link
-* https://nk6bqsuj33.ap-south-1.awsapprunner.com/
+* https://daghbe35ev.ap-south-1.awsapprunner.com/
 
 ## Dataset Link
 * https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction
