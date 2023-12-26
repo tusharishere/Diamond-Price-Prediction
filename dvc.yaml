@@ -6,7 +6,8 @@ stages:
       - src/DiamondPricePrediction/components/data_ingestion.py
       - src/DiamondPricePrediction/components/data_transformation.py
       - src/DiamondPricePrediction/components/model_trainer.py
-      - src/DiamondPricePrediction/components/model_evaluation.py
+      - src/DiamondPricePrediction/components/model_evalution.py
+
 
     outs:
       - artifacts/raw.csv

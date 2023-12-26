@@ -1,0 +1,46 @@
+schema: '2.0'
+stages:
+  training:
+    cmd: python src/DiamondPricePrediction/pipelines/training_pipeline.py
+    deps:
+    - path: src/DiamondPricePrediction/components/data_ingestion.py
+      hash: md5
+      md5: f42dbda2ebf5fe1afdd72113fde7771c
+      size: 2018
+    - path: src/DiamondPricePrediction/components/data_transformation.py
+      hash: md5
+      md5: 499080193c39f2f981fedc7579b3a4fc
+      size: 4550
+    - path: src/DiamondPricePrediction/components/model_evalution.py
+      hash: md5
+      md5: 8f2bcdb6c1afbcc3927b8b7fb6b310f6
+      size: 2169
+    - path: src/DiamondPricePrediction/components/model_trainer.py
+      hash: md5
+      md5: a4ff60b9d851436f967b6d0f6100ffcb
+      size: 2506
+    - path: src/DiamondPricePrediction/pipelines/training_pipeline.py
+      hash: md5
+      md5: b33cd9b2a4854219095e68f37bb33ec0
+      size: 944
+    outs:
+    - path: artifacts/model.pkl
+      hash: md5
+      md5: 5e972db1e55a27e11e14eaccd3b8d8b3
+      size: 593
+    - path: artifacts/preprocessor.pkl
+      hash: md5
+      md5: 3165aef16d27c0d6706a2e599c2407c1
+      size: 2986
+    - path: artifacts/raw.csv
+      hash: md5
+      md5: 4d3b99278017349368e70a85aa43bd7d
+      size: 10656378
+    - path: artifacts/test.csv
+      hash: md5
+      md5: 1025a353d55ee08a430fa5ccd4daf406
+      size: 2664076
+    - path: artifacts/train.csv
+      hash: md5
+      md5: c0a5001d5b3edd96e2eef471f2339d53
+      size: 7992354
