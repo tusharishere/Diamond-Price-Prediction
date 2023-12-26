@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Asus/Desktop/Diamond-Price-Prediction/mlruns/0/035faf59ec044ba480d8b319ea14c7a2/artifacts
+end_time: 1703592593817
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 035faf59ec044ba480d8b319ea14c7a2
+run_name: rambunctious-slug-79
+run_uuid: 035faf59ec044ba480d8b319ea14c7a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703592581218
+status: 3
+tags: []
+user_id: Asus
