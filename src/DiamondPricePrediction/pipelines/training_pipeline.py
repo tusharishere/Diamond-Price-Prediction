@@ -1,3 +1,4 @@
+from src.DiamondPricePrediction.components.model_evalution import ModelEvaluation
 from src.DiamondPricePrediction.components.data_ingestion import DataIngestion
 
 from src.DiamondPricePrediction.components.data_transformation import DataTransformation
@@ -26,3 +27,5 @@ model_trainer_obj=ModelTrainer()
 model_trainer_obj.initate_model_training(train_arr,test_arr)
 
 
+model_eval_obj = ModelEvaluation()
+model_eval_obj.initiate_model_evaluation(train_arr,test_arr)
